@@ -1,14 +1,15 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import "../styles/globals.css";
-import { Montserrat } from "@next/font/google";
+import { Poppins } from "@next/font/google";
 
-const montserrat = Montserrat({
+const poppins = Poppins({
   subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={montserrat.className}>
+    <main className={poppins.className}>
       <Component {...pageProps} />
     </main>
   );

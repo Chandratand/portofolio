@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+	margin: 0;
+	-webkit-tap-highlight-color: transparent;
+}
+*::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+*::-webkit-scrollbar-track {
+	border-radius: 10px;
+}
+*::-webkit-scrollbar-thumb {
+	pointer-events: all;
+	background: #d9d9d9;
+	border-radius: 10px;
+}
+
+@layer base {
+	.headings {
+		@apply text-5xl font-bold text-dark;
+	}
+	.header {
+		@apply text-4xl font-bold text-dark;
+	}
+	.title {
+		@apply text-[22px] font-semibold text-dark;
+	}
+	.sub-title {
+		@apply text-xl font-medium text-dark;
+	}
+	.body {
+		@apply text-base font-normal text-dark;
+	}
+	.caption {
+		@apply text-sm font-bold text-dark;
+	}
+}
