@@ -30,13 +30,13 @@
 		@apply text-base font-semibold text-dark md:text-[22px] md:leading-[33px];
 	}
 	.sub-title {
-		@apply text-sm font-medium text-dark md:text-xl;
+		@apply text-base font-medium text-dark md:text-xl;
 	}
 	.body {
-		@apply text-xs font-normal text-dark md:text-base;
+		@apply text-sm font-normal text-dark md:text-base;
 	}
 	.caption {
-		@apply text-[10px] font-bold text-dark md:text-sm;
+		@apply text-xs font-bold text-dark md:text-sm;
 	}
 }
 

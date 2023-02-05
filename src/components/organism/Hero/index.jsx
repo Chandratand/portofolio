@@ -42,6 +42,7 @@ const Hero = () => {
               width={497}
               height={635}
               className="mx-auto"
+              priority
             />
           </div>
           {/* End RightSide */}
