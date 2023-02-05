@@ -11,6 +11,7 @@ const Hero = () => {
         src="/assets/illustration/bg-hero-1.svg"
         fill
         className="absolute object-cover"
+        alt=""
         priority
       />
       <div className="container relative z-40 md:max-w-full lg:container">
@@ -29,11 +30,11 @@ const Hero = () => {
               Butuh Website atau aplikasi mobile untuk bisnis anda? Hubungi
               saya, harga murah kualitas terjamin!
             </p>
-            <div className="flex gap-4">
-              <Button className="mx-auto w-full max-w-[200px] bg-primary md:mx-0 md:w-fit">
+            <div className="flex justify-center gap-4 md:justify-start">
+              <Button className="w-full max-w-[200px] bg-primary md:mx-0 md:w-fit">
                 Hire me
               </Button>
-              <Button className="mx-auto w-full max-w-[200px] border border-primary bg-white text-primary md:mx-0 md:w-fit">
+              <Button className="w-full max-w-[200px] border border-primary bg-white text-primary md:mx-0 md:w-fit">
                 Download CV
               </Button>
             </div>

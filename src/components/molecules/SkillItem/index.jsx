@@ -10,6 +10,7 @@ const SkillItem = ({ icon, desc }) => {
   return (
     <Popover className="relative">
       <Popover.Button
+        aria-label="show skill desc"
         ref={setReferenceElement}
         className="focus-within:outline-none"
       >

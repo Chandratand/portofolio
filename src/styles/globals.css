@@ -27,7 +27,7 @@
 		@apply text-2xl font-bold text-dark md:text-4xl;
 	}
 	.title {
-		@apply text-base font-semibold text-dark md:text-[22px] md:leading-[33px];
+		@apply text-lg font-semibold text-dark md:text-[22px] md:leading-[33px];
 	}
 	.sub-title {
 		@apply text-base font-medium text-dark md:text-xl;
