@@ -63,7 +63,7 @@ const Portofolio = () => {
           <Carousel responsive={responsive} containerClass="mt-[48px] -mx-4">
             {portofolio.map((porto) => {
               return (
-                <div className="mx-2 flex justify-center">
+                <div className="mx-2 flex justify-center" key={porto.title}>
                   <PortofolioCard
                     thumbnail={porto.thumbnail}
                     title={porto.title}

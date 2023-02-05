@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import "../styles/globals.css";
 import { Poppins } from "@next/font/google";
+import Head from "next/head";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -9,7 +10,10 @@ const poppins = Poppins({
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={`${poppins.className} debug-screens`}>
+    <main className={`${poppins.className}`}>
+      <Head>
+        <title>Portofolio - Chandra Tandiono</title>
+      </Head>
       <Component {...pageProps} />
     </main>
   );

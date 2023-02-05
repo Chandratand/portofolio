@@ -8,6 +8,7 @@
 		"airbnb",
 		"plugin:tailwindcss/recommended",
 		"plugin:react-hooks/recommended",
+		"plugin:@next/next/recommended",
 		"prettier"
 	],
 	"overrides": [],
