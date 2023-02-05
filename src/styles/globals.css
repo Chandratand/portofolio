@@ -21,21 +21,43 @@
 
 @layer base {
 	.headings {
-		@apply text-5xl font-bold text-dark;
+		@apply text-[32px] font-bold text-dark md:text-5xl;
 	}
 	.header {
-		@apply text-4xl font-bold text-dark;
+		@apply text-2xl font-bold text-dark md:text-4xl;
 	}
 	.title {
-		@apply text-[22px] font-semibold text-dark;
+		@apply text-base font-semibold text-dark md:text-[22px] md:leading-[33px];
 	}
 	.sub-title {
-		@apply text-xl font-medium text-dark;
+		@apply text-sm font-medium text-dark md:text-xl;
 	}
 	.body {
-		@apply text-base font-normal text-dark;
+		@apply text-xs font-normal text-dark md:text-base;
 	}
 	.caption {
-		@apply text-sm font-bold text-dark;
+		@apply text-[10px] font-bold text-dark md:text-sm;
+	}
+}
+
+@layer components {
+	.navbar {
+		@apply fixed top-0 left-0 z-50 flex w-full items-center bg-white;
+		box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.2);
+	}
+
+	.navbar-fixed {
+		@apply fixed z-50 bg-white bg-opacity-90;
+		backdrop-filter: blur(5px);
+	}
+
+	.btn {
+		@apply flex items-center justify-center rounded-lg bg-primary px-6 py-3 font-semibold text-white hover:cursor-pointer active:opacity-50;
+	}
+}
+
+@layer utilities {
+	.gradient-1 {
+		background: linear-gradient(180deg, #2f2d52 45.72%, #7686bd 100%);
 	}
 }

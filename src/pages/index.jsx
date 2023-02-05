@@ -1,11 +1,14 @@
+import AboutMe from "../components/organism/AboutMe";
+import Hero from "../components/organism/Hero";
+import Layout from "../components/organism/Layout";
+import Portofolio from "../components/organism/Portofolio";
+
 export default function Home() {
   return (
-    <div className="container pt-10">
-      <h1 className="header">Header</h1>
-      <h2 className="sub-header">Sub-Header</h2>
-      <h2 className="title">Title</h2>
-      <h3 className="sub-title">Sub-Title</h3>
-      <p className="body">Body</p>
-    </div>
+    <Layout>
+      <Hero />
+      <AboutMe />
+      <Portofolio />
+    </Layout>
   );
 }
