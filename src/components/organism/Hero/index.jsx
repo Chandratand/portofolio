@@ -6,7 +6,13 @@ import Profile from "../../../../public/assets/dummy/dummy-profile.png";
 
 const Hero = () => {
   return (
-    <section className="bg-[url('/assets/illustration/bg-hero-1.svg')] bg-cover bg-no-repeat">
+    <section className="relative">
+      <Image
+        src="/assets/illustration/bg-hero-1.svg"
+        fill
+        className="absolute object-cover"
+        priority
+      />
       <div className="container relative z-40 md:max-w-full lg:container">
         <div className="flex flex-wrap">
           {/* leftSide */}
