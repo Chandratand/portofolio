@@ -12,15 +12,15 @@ const FootSection = () => {
         <div className="flex-1">
           <div className="flex flex-col gap-4 items-center lg:items-start lg:w-fit lg:ml-40">
             <p className="font-semibold">Contact me on :</p>
-            <Link href={'/'} className={'flex gap-1 items-center'}>
+            <Link href={'https://www.instagram.com/chandratand/'} className={'flex gap-1 items-center'}>
               <MailIcon />
               ChandraTand@gmail.com
             </Link>
-            <Link href={'/'} className={'flex gap-1 items-center'}>
+            <Link href={'https://www.linkedin.com/in/chandratandiono'} className={'flex gap-1 items-center'}>
               <LinkedinIcon />
               Chandra Tandiono
             </Link>
-            <Link href={'/'} className={'flex gap-1 items-center'}>
+            <Link href={'mailto: chandra.tand@gmail.com'} className={'flex gap-1 items-center'}>
               <InstagramIcon />
               chandratand
             </Link>
