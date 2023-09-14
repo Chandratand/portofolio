@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const FootSection = () => {
   return (
-    <section className="container bg-primary text-primary-foreground py-16">
-      <div className="max-w-xl mx-auto text-center lg:max-w-full lg:text-start lg:flex lg:items-center">
+    <section className="bg-primary text-primary-foreground">
+      <div className="container py-16 max-w-xl mx-auto text-center lg:max-w-none lg:text-start lg:flex lg:items-center">
         <div className="flex-1 space-y-4 mb-4">
           <h3 className="text-4xl font-bold md:text-6xl">Have any project ideas?</h3>
           <p>Feel free to get in touch, brainstorm, and {"let's"} turn your visionary ideas into reality together.</p>
